@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <style media="screen">
+      .judul {
+        font-size : 20pt;
+      }
+      .heder {
+      background-color: green;
+
+      }
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <!-- <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $(".h1").css("color","red").addClass("judul").css("font-style", "italic").addClass("heder");
+        // latihan 3
+        $("#p3").css("color","pink");
+        // latihan 4
+        $("div").addClass("heder");
+      })
+    </script>
+
+  </head>
+  <body>
+    <p class="h1">ini percobaaan 1</p>
+    <h1 id="p3">ini percobaaan 3</h1>
+    <div>
+      test
+    </div>
+  </body>
+</html>
